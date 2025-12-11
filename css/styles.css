@@ -38,6 +38,9 @@ ul {
 .menu .link:focus {
     color: #404bbf;
 }
+address {
+    font-style: normal;
+}
 .contacts .info {
     text-decoration: none;
     color: #434455;
@@ -62,6 +65,7 @@ ul {
 .effective h1 {
     font-weight: 700;
     font-size: 56px;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
      text-align: center;
     color: #FFFFFF;
@@ -77,6 +81,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .effective .order:hover,
 .effective .order:focus {
@@ -90,6 +96,22 @@ ul {
 section h2 {
     text-align: center;
     letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1.11111;
+}
+section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .team h3 {
     text-align: center;
