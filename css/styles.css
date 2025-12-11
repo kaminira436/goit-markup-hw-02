@@ -1,5 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455
+}
+
+h2, h3, h4, h5, h6 {
     color: #2E2F42;
 }
 .logo {
@@ -7,17 +11,19 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
+    font-family: 'Ralawey', sans-serif;
+    letter-spacing: 0.03em;
 }
 ul {
     list-style-type: none;
      margin: 0;
     padding: 0;
 }
-.logo .logo-blue {
+.logo-blue {
     color: #4D5AE5;
 }
 .logo .logo-black {
-    color: #000000;
+    color: #2E2F42;
 }
 .menu .link {
     text-decoration: none;
@@ -25,6 +31,11 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em;
+}
+.menu .link:hover,
+.menu .link:focus {
+    color: #404bbf;
 }
 .contacts .info {
     text-decoration: none;
@@ -33,8 +44,13 @@ ul {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    letter-spacing: 0.02em;
 }
-.Effective {
+.contacts .info:hover,
+.contacts .info:focus {
+    color: #404bbf;
+}
+.effective {
     background-color: #2E2F42;
     padding: 120px 0;
     color: #FFFFFF;
@@ -42,7 +58,15 @@ ul {
     font-size: 56px;
     text-align: center;
 }
-.Effective .Order {
+.effective h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+     text-align: center;
+    color: #FFFFFF;
+}
+.effective .order {
     display: block;
     margin-top: 40px;
     padding: 16px 32px;
@@ -50,27 +74,45 @@ ul {
     border: none;
     border-radius: 30px;
     color: #FFFFFF;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
     cursor: pointer;
-
 }
-.Our h2 {
+.effective .order:hover,
+.effective .order:focus {
+    background-color: #404bbf;
+}
+.our {
+background-color: #f4f4fd;
+padding: 120px 0;
+}
+.our h2 {
     text-align: center;
+    letter-spacing: 0.02em;
 }
-.Team h3 {
+.team h3 {
     text-align: center;
+    letter-spacing: 0.02em;
 }
-.Team p {
+.team p {
     text-align: center;
+    letter-spacing: 0.02em;
 }
-.Team .Team-person {
-background-color: #F4F4FD;
+.team .team-person {
+background-color: #FFFFFF;
 }
 
 .footer {
 background-color: #2E2F42;
 padding: 100px 0;
+}
+
+.footer .logo {
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
 }
 .footer p {
 font-weight: 400;
@@ -80,9 +122,6 @@ color: #F4F4FD;
 text-transform: none;
 }
 
-.footer .footer-blue {
-    color: #4D5AE5;
-}
-.footer .footer-white {
+.footer .logo-white {
     color: #F4F4FD;
 }
