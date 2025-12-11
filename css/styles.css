@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 h2, h3, h4, h5, h6 {
@@ -11,7 +12,7 @@ h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    font-family: 'Ralawey', sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
 }
 ul {
@@ -39,7 +40,7 @@ ul {
 }
 .contacts .info {
     text-decoration: none;
-    color: #2E2F42;
+    color: #434455;
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
@@ -61,7 +62,6 @@ ul {
 .effective h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
     letter-spacing: 0.02em;
      text-align: center;
     color: #FFFFFF;
@@ -82,11 +82,12 @@ ul {
 .effective .order:focus {
     background-color: #404bbf;
 }
-.our {
-background-color: #f4f4fd;
-padding: 120px 0;
+.team-section {
+    background-color: #f4f4fd;
+    padding: 120px 0;
 }
-.our h2 {
+
+section h2 {
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -108,7 +109,6 @@ padding: 100px 0;
 }
 
 .footer .logo {
-    line-height: 21px;
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
